@@ -5,8 +5,6 @@ FROM new_schema.`parking-citations`;
 SELECT AVG(`Fine amount` )
 FROM new_schema.`parking-citations`;
 
-
-
 ALTER TABLE  `parking-citations` 
 ADD average INT;
 
